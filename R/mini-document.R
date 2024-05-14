@@ -49,7 +49,7 @@
 #' \dontrun{
 #' library(rmarkdown)
 #' library(minidown)
-#' render("input.Rmd", mini_document)
+#' render("input.Rmd", "mini_document")
 #' }
 #' @export
 mini_document <- function(framework = "sakura",
